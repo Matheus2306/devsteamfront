@@ -9,9 +9,29 @@ body{
     color: #fff;
 }
 
-.buscar {
-  background: #2a475e;
-}
+
 .buscar,.buscar::placeholder {
+  background: #2a475e;
   color: #d7d7d7;
+}
+
+.promoCard {
+width: 280px;
+background: linear-gradient(to top, #19587b, #2b87ae);
+transition: transform 0.2s;
+}
+.promoCard:hover {
+  transform: scale(1.05);
+}
+.desconto {
+  background-color: #4c6b22;
+  color: #beeb14;
+}
+
+.corValor{
+  color: #beeb14;
+}
+
+#addCarrinho:hover{
+background: #547625;
 }
